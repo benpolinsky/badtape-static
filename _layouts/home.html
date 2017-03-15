@@ -30,21 +30,11 @@ layout: default
 		
 		<section>
 			<ul class='social-media-links'>
-				<li class='social-media-link'>
-					<img src='https://placehold.it/40x40' />
-				</li>
-			
-				<li class='social-media-link'>
-					<img src='https://placehold.it/40x40' />
-				</li>
-			
-				<li class='social-media-link'>
-					<img src='https://placehold.it/40x40' />
-				</li>
-			
-				<li class='social-media-link'>
-					<img src='https://placehold.it/40x40' />
-				</li>
+				{% for link in site.data.home.badtape_links %}
+					<li class='social-media-link'>
+						<a href='{{link.link}}'><img src='/assets/{{link.logo}}'/></a>
+					</li>
+				{% endfor %}
 			</ul>
 		</section>
 	</aside>
@@ -61,8 +51,8 @@ layout: default
       {% for album in site.data.all_albums %}
 				<li class='past-release'>
 					<img src='{{album.cover}}'>
-					<p>{{album.title}}</p>
-					<p>{{album.year}}</p>
+					<p>{{album.name}}</p>
+					<p>{{album.subtitle}}</p>
 				</li>
       {% endfor %}
 		</ul>

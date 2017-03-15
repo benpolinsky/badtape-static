@@ -1,7 +1,7 @@
 featured:
   title: New Music
   media_type: image
-  media_url: https://placehold.it/225x225
+  media_url: assets/designed_to_erupt.jpg
   heading: Designed To Erupt
   subheading: Z. Gillespie and Malik B
   text: The first single off Z.Gillespie’s new project Revelries is “Designed To Erupt” featuring Malik B. The album includes appearances from Shabaam Sahdeeq, Supastition, Planet Asia, Edo G., Pacewon, and Noesis.
@@ -11,5 +11,15 @@ featured:
 about: Badtape Music is a loose collective of artists based out of Philadelphia. Begun by Stoupe of Jedi Mind Tricks in 2007, the operation has expanded to include critically acclaimed producer Ish Quintero and live bands Red Martina and Philadelphia Slick.
 
 badtape_links: 
-  soundcloud: https://soundcloud.com/badtapemusic
-  bandcamp: https://badtape.bandcamp.com
+  - name: Soundcloud
+    link: https://soundcloud.com/badtapemusic
+    logo: soundcloud.png
+  - name: Bandcamp
+    link: https://badtape.bandcamp.com
+    logo: bandcamp.png
+  - name: Facebook
+    link: https://facebook.com/badtapemusic
+    logo: facebook.png
+  - name: Twitter
+    link: https://twitter.com/badtapemusic
+    logo: twitter.png

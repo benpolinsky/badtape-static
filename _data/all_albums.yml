@@ -1,6 +1,84 @@
-- artist: Red Martina
-  title: Intransit
-  cover: https://placehold.it/225x225
-- artist: Red Martina
-  title: Live
-  cover: https://placehold.it/225x225
+- name: Come on Home
+  subtitle: Red Martina
+  cover: /assets/come-on-home.jpg
+  year: 2014
+  link: https://redmartina.bandcamp.com/
+  link_text: Listen | Buy
+
+- name: Intransit
+  subtitle: Red Martina
+  year: 2013
+  cover: /assets/intransit.jpg
+  link: https://redmartina.bandcamp.com/
+  link_text: Listen | Buy
+
+- name: Live
+  subtitle: Red Martina
+  cover: /assets/live.jpg
+  year: 2015
+  link: https://redmartina.bandcamp.com/
+  link_text: Listen | Buy
+
+- name: Come on Home Instrumentals
+  subtitle: Red Martina
+  cover: /assets/come-on-home-ins.jpg
+  year: 2016
+  link: https://redmartina.bandcamp.com/
+  link_text: Listen | Buy
+  
+- name: Intransit Instrumentals
+  subtitle: Red Martina
+  cover: /assets/intransit-instrumentals.jpg
+  year: 2014
+  link: https://redmartina.bandcamp.com/
+  link_text: Listen | Buy
+  
+- name: The Wind Remixes
+  subtitle: By Ish and Stoupe
+  cover: /assets/wind-remixes.jpg
+  year: 2013
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  link: https://dutchtrip.bandcamp.com/
+  link_text: Free Download
+
+- name: A Bright Cold Day
+  subtitle: The Cult Classic
+  year: 2010
+  cover: /assets/a-cold-bright-day.jpg
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  link: https://dutchtrip.bandcamp.com/
+  link_text: Listen | Buy
+  
+- name: Model-C
+  subtitle: Quintero
+  cover: /assets/quintero.jpg
+  link: https://quintero.bandcamp.com
+  link_text: Listen | Buy
+  
+- name: Earth Rocks Harder
+  subtitle: Philadelphia Slick
+  cover: /assets/earth-rocks-harder.jpg
+  link: https://philadelphiaslick.bandcamp.com
+  link_text: Listen | Buy
+  year: 2014
+  
+- name: Culture Industry
+  subtitle: Philadelphia Slick
+  cover: /assets/culture-industry.jpg
+  link: https://philadelphiaslick.bandcamp.com
+  link_text: Listen | Buy
+  year: 2007
+
+- name: Oil
+  subtitle: Philadelphia Slick
+  cover: /assets/oil.jpg
+  link: https://philadelphiaslick.bandcamp.com
+  link_text: Listen | Buy
+  year: 2009
+
+- name: Everything's Game
+  subtitle: Philadelphia Slick
+  cover: /assets/everythings-game.jpg
+  link: https://philadelphiaslick.bandcamp.com
+  link_text: Listen | Buy
+  year: 2011

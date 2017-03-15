@@ -2,10 +2,24 @@ name: Z. Gillespie
 slug: z-gillespie
 albums: 
   - name: Reveries
-  - description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    subtitle: Designed to Erupt is the First Single
+    cover: /assets/designed_to_erupt.jpg
+    description: Coming Soon!  Z. Gillespie's debut album 'Revelries' features Malik B., Shabaam Sahdeeq, Supastition, Planet Asia, Edo G., Pacewon, and Noesis.
+    link: https://zgillespie.bandcamp.com
+    link_text: Buy | Listen
   
 bio: "z. gillespie is a songwriter, instrumentalist and producer from Philadelphia. As part of Badtape Music, he has written and performed, on various projects including: Slaine- 'The Deadzone' 2011, Vespertina- 'Devil's Dance' 2011, Red Martina- 'Bedtime for Bonzo' 2014, Grindhouse Gang- 'Isolation' 2014, Jedi Mind Tricks- 'The Thief and The Fallen' 2015, Vestige- 'The Inanimate Life'- TBA."
 image: https://placehold.it/500x500
 links: 
-  - soundcloud: https://soundcloud.com/zgillespie
-  - bandcamp: https://soundcloud.com/zgillespie
+  - name: Soundcloud
+    link: https://soundcloud.com/zgillespie
+    logo: soundcloud.png
+  - name: Bandcamp
+    link: https://zgillespie.bandcamp.com
+    logo: bandcamp.png
+  - name: Facebook
+    link: https://facebook.com/zgillespie
+    logo: facebook.png
+  - name: Twitter
+    link: https://twitter.com/zgillespie
+    logo: twitter.png

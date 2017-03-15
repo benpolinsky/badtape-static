@@ -1,25 +1,34 @@
-name: Ish Quintero
-slug: ish-quintero
+name: Dutch
+slug: dutch
 albums: 
-  - name: Model-C
-    subtitle: By Quintero 
+  - name: The Wind Remixes
+    subtitle: By Ish and Stoupe
+    cover: /assets/wind-remixes.jpg
+    year: 2013
     description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    cover: /assets/quintero.jpg
-    link: https://quintero.bandcamp.com
+    link: https://dutchtrip.bandcamp.com/
+    link_text: Free Download
+    
+  - name: A Bright Cold Day
+    subtitle: The Cult Classic
+    year: 2010
+    cover: /assets/a-cold-bright-day.jpg
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    link: https://dutchtrip.bandcamp.com/
     link_text: Listen | Buy
   
 bio: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-image: https://placehold.it/500x500
+image: /assets/a-cold-bright-day.jpg
 links: 
   - name: Soundcloud
-    link: https://soundcloud.com/redmartina
+    link: https://soundcloud.com/dutchtrip
     logo: soundcloud.png
   - name: Bandcamp
-    link: https://redmartina.bandcamp.com
+    link: https://dutchtrip.bandcamp.com
     logo: bandcamp.png
   - name: Facebook
-    link: https://facebook.com/redmartina
+    link: https://facebook.com/dutchtrip
     logo: facebook.png
   - name: Twitter
-    link: https://twitter.com/redmartina
+    link: https://twitter.com/dutchtrip
     logo: twitter.png

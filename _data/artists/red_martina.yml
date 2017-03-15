@@ -1,15 +1,59 @@
+
 name: Red Martina
 slug: red-martina
 albums: 
-  - title: Intransit
-    cover: https://placehold.it/225x225
+  - name: Come on Home
+    subtitle: Latest Album
+    cover: /assets/come-on-home.jpg
+    year: 2014
     description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  - title: Live
-    cover: https://placehold.it/225x225
+    link: https://redmartina.bandcamp.com/
+    link_text: Listen | Buy
+    
+  - name: Intransit
+    subtitle: The Debut Album
+    year: 2013
+    cover: /assets/intransit.jpg
     description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    link: https://redmartina.bandcamp.com/
+    link_text: Listen | Buy
+    
+  - name: Live
+    subtitle: Recording in Philadelphia
+    cover: /assets/live.jpg
+    year: 2015
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    link: https://redmartina.bandcamp.com/
+    link_text: Free Download
+    
+  - name: Come on Home Instrumentals
+    subtitle: Your Favorite Beats
+    cover: /assets/come-on-home-ins.jpg
+    year: 2016
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    link: https://redmartina.bandcamp.com/
+    link_text: Free Download
+    
+  - name: Intransit Instrumentals
+    subtitle: Your Favorite Beats
+    cover: /assets/intransit-instrumentals.jpg
+    year: 2014
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    link: https://redmartina.bandcamp.com/
+    link_text: Free Download
   
 bio: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 image: https://placehold.it/500x500
 links: 
-  - soundcloud: https://soundcloud.com/zgillespie
-  - bandcamp: https://soundcloud.com/zgillespie
+  - name: Soundcloud
+    link: https://soundcloud.com/redmartina
+    logo: soundcloud.png
+  - name: Bandcamp
+    link: https://redmartina.bandcamp.com
+    logo: bandcamp.png
+  - name: Facebook
+    link: https://facebook.com/redmartina
+    logo: facebook.png
+  - name: Twitter
+    link: https://twitter.com/redmartina
+    logo: twitter.png

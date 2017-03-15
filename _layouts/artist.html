@@ -32,50 +32,45 @@ layout: default
 		
 		<section>
 			<ul class='social-media-links'>
-				<li class='social-media-link'>
-					<img src='https://placehold.it/40x40' />
-				</li>
-			
-				<li class='social-media-link'>
-					<img src='https://placehold.it/40x40' />
-				</li>
-			
-				<li class='social-media-link'>
-					<img src='https://placehold.it/40x40' />
-				</li>
-			
-				<li class='social-media-link'>
-					<img src='https://placehold.it/40x40' />
-				</li>
+				{% for link in artist.links %}
+					<li class='social-media-link'>
+						<a href='{{link.link}}'><img src='/assets/{{link.logo}}'/></a>
+					</li>
+				{% endfor %}
 			</ul>
 		</section>
 	</aside>
 
-<hr/>
+{% if artist.albums.size > 1 %}
+	<hr/>
 
-<section class='artist past-releases'>
-	<header>
-		<h2>Past Releases</h2>
-	</header>
+	<section class='artist past-releases'>
+		<header>
+			<h2>Past Releases</h2>
+		</header>
 	
-	<div class='artist-album-list'>
-		<ul class='artist-past-release-list'>
-      {% for album in artist.albums %}
-				{% if album != artist.albums[0] %}
-					<li class='release'>
-						<div class='album-main'>
-							<img src='{{album.cover}}' />
-							<p>{{album.name}}</p>
-							<p>{{album.year}}</p>							
-						</div>
+		<div class='artist-album-list'>
+			<ul class='artist-past-release-list'>
+	      {% for album in artist.albums %}
+					{% if album != artist.albums[0] %}
+						<li class='release'>
+							<div class='album-main'>
+								<img src='{{album.cover}}' />
+								<p>{{album.name}}</p>
+								<p>{{album.year}}</p>							
+							</div>
 
 						
-						<div class='description'>
-							{{album.description}}
-						</div>
-					</li>
-				{% endif %}
-      {% endfor %}
-		</ul>
-	</div>
-</section>
+							<div class='description'>
+								{{album.description}}
+								<div class='album-links'>
+									<a href="{{album.link}}">{{album.link_text}}</a>
+								</div>
+							</div>
+						</li>
+					{% endif %}
+	      {% endfor %}
+			</ul>
+		</div>
+	</section>
+{% endif %}

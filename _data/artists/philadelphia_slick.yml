@@ -3,38 +3,48 @@ slug: philadelphia-slick
 albums: 
   - name: Earth Rocks Harder
     subtitle: The Band's 4th Release
-    cover: https://placehold.it/225x225
+    cover: /assets/earth-rocks-harder.jpg
     description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     link: https://philadelphiaslick.bandcamp.com
-    link_text: Listen
+    link_text: Listen | Buy
     year: 2014
     
   - name: Culture Industry
     subtitle: Debut Album
-    cover: https://placehold.it/200x200
+    cover: /assets/culture-industry.jpg
     description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     link: https://philadelphiaslick.bandcamp.com
-    link_text: Listen
+    link_text: Listen | Buy
     year: 2007
 
   - name: Oil
     subtitle: 2nd Album
-    cover: https://placehold.it/200x200
+    cover: /assets/oil.jpg
     description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     link: https://philadelphiaslick.bandcamp.com
-    link_text: Listen
+    link_text: Listen | Buy
     year: 2009
 
   - name: Everything's Game
     subtitle: 2011 EP
-    cover: https://placehold.it/200x200
+    cover: /assets/everythings-game.jpg
     description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     link: https://philadelphiaslick.bandcamp.com
-    link_text: Listen
+    link_text: Listen | Buy
     year: 2011
   
 bio: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 image: https://placehold.it/500x500
 links: 
-  - soundcloud: https://soundcloud.com/philadelphiaslick
-  - bandcamp: https://philadelphiaslick.bandcamp.com
+  - name: Soundcloud
+    link: https://soundcloud.com/philadelphiaslick
+    logo: soundcloud.png
+  - name: Bandcamp
+    link: https://philadelphiaslick.bandcamp.com
+    logo: bandcamp.png
+  - name: Facebook
+    link: https://facebook.com/philadelphiaslick
+    logo: facebook.png
+  - name: Twitter
+    link: https://twitter.com/philadelphiaslick
+    logo: twitter.png
