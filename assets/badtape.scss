@@ -1,0 +1,260 @@
+---
+---
+@font-face {
+    font-family: 'interstateplusmedium';
+    src: url('interstateplus_bold-webfont.woff2') format('woff2'),
+         url('interstateplus_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'interstateplusregular';
+    src: url('interstateplus_regular-webfont.woff2') format('woff2'),
+         url('interstateplus_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h1 a.site-title{
+  font-size:36px;
+  color:red;
+  &.active{
+    color:red;
+  }
+}
+
+h2, h3{
+  font-family: 'interstateplusregular';
+  text-transform:uppercase;
+  font-weight:300;
+  line-height:1.2;
+  margin-bottom:4px;
+}
+
+h3{
+  margin-bottom:15px;
+}
+
+div, p, span, label, input{
+  font-family: "Roboto";
+}
+
+a{
+  color:red;
+  font-family: 'interstateplusmedium';
+  font-weight: 700;
+  font-size: 12px;
+  text-transform:uppercase;
+}
+
+
+header h1{
+  color: black; 
+  font-size: 22px;
+  font-family: 'interstateplusmedium';
+  text-transform: uppercase;
+}
+
+
+
+#front-new-music{
+  display:flex;
+  flex-direction: column;
+  padding: 0 0 30px 0;
+}
+
+#front-new-music header{
+  padding:0;
+  margin-right:30px;
+  width:100%;
+}
+
+#front-new-music section.main-content{
+  display:flex;
+  flex-direction:row;
+  width:100%;
+}
+
+#front-new-music .img-container{
+  flex:3;
+  margin-right:20px;
+  img{
+    width:100%;
+  }
+}
+
+.new-music-content{
+  flex:3;
+  position:relative;
+  .body{
+    line-height:1.5;    
+    margin-bottom:20px;
+  }
+  
+  .big-btn{
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+  }
+}
+
+aside.sidebar{
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  margin-bottom:20px;
+  header{
+    font-family: 'interstateplusregular';
+    font-size:12px;
+    line-height:1.6;
+    
+  }
+  ul{
+    list-style-type:none;
+    padding:0;
+    margin:10px 0 0 0;
+    li{
+      padding:0;
+      float:left;
+      margin:0 14px 0 0px;
+    }
+  }
+}
+
+section.past-releases{
+  padding-top:30px;
+  header{
+    margin-bottom:20px;
+  }
+  ul{
+    list-style-type:none;
+    margin-left:0;
+    display:flex;
+    flex-flow:wrap;
+    li{
+      width:25%;
+      margin-bottom:50px;
+      img{
+        display:block;
+        margin:0 auto;
+      }
+      p{
+        text-align:center;
+        font-family: 'interstateplusregular';
+        text-transform:uppercase;
+        line-height:1;
+        margin:4px 0 4px 0;
+      }
+    }
+  }
+}
+
+
+
+.big-btn{
+  background:black;
+  padding:40px;
+  display:block;
+  text-align:center;
+  font-size:24px;
+    &, &:visited{
+      color:white;
+    }
+    &:hover{
+      text-decoration:none;
+      background:#990900;
+    };
+}
+
+footer{
+  background:black;
+  h2.footer-heading{
+    color:white;
+  }
+}
+
+
+section.artist .artist-album-list ul{
+  width:100%;
+  li{
+    width:100%;
+    img{
+      display:inline;
+    }
+    p{
+      text-align:left;
+      width:auto;
+    }
+  }
+}
+
+section.artist .artist-album-list .album-main{
+  float:left;
+  margin-right:20px;
+}
+
+@media screen and (max-width: 700px){
+  #front-new-music{
+    padding-bottom: 30px;
+  }
+  
+  #front-new-music section.main-content {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+  }
+  
+
+  #front-new-music .sidebar{
+    border-top: 1px solid black;
+    flex: 1;
+    width: 100%;
+    margin: 30px 0 0 0;
+    padding: 20px 0 0 0;
+    text-align:left;
+    float:left;
+    clear:both;
+     ul{
+       margin-left:0;
+       li{
+         margin:0 14px 0 0px;
+       }
+     } 
+  }
+  
+  .new-music-content .body{
+    margin-bottom:150px;
+  }
+  
+  section.past-releases{
+    padding-top:30px;
+    ul{
+      list-style-type:none;
+      margin-left:0;
+      display:flex;
+      flex-flow: wrap;
+      li{
+        width:100%;
+        margin-bottom:50px;
+        img{
+          display:block;
+          margin:0 auto;
+        }
+        p{
+          text-align:center;
+          font-family: 'interstateplusregular';
+          text-transform:uppercase;
+          line-height:1;
+          margin:4px 0 4px 0;
+        }
+      }
+    }
+  }
+
+}
+

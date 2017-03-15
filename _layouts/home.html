@@ -1,0 +1,70 @@
+---
+layout: default
+---
+
+<article id='front-new-music'>
+	<header>
+		<h1>{{site.data.home.featured.title}}</h1>
+	</header>
+	
+	<section class='main-content'>
+
+		<div class='img-container'><img src='{{site.data.home.featured.media_url}}' /></div>
+		<div class='new-music-content'>
+			<h2>{{site.data.home.featured.heading}}</h2>
+			<h3>{{site.data.home.featured.subheading}}</h3>
+			
+			<div class='body'>
+				{{site.data.home.featured.text}}
+			</div>
+			
+			<a class='big-btn' href='{{site.data.home.featured.link}}'>{{site.data.home.featured.link_text}}</a>
+		</div>
+	</section>
+</article>
+
+	<aside class='sidebar'>
+		<header>
+			{{site.data.home.about}}
+		</header>
+		
+		<section>
+			<ul class='social-media-links'>
+				<li class='social-media-link'>
+					<img src='https://placehold.it/40x40' />
+				</li>
+			
+				<li class='social-media-link'>
+					<img src='https://placehold.it/40x40' />
+				</li>
+			
+				<li class='social-media-link'>
+					<img src='https://placehold.it/40x40' />
+				</li>
+			
+				<li class='social-media-link'>
+					<img src='https://placehold.it/40x40' />
+				</li>
+			</ul>
+		</section>
+	</aside>
+
+<hr/>
+
+<section class='past-releases'>
+	<header>
+		<h2>Past Releases</h2>
+	</header>
+	
+	<div class='past-releases'>
+		<ul class='past-release-list'>
+      {% for album in site.data.all_albums %}
+				<li class='past-release'>
+					<img src='{{album.cover}}'>
+					<p>{{album.title}}</p>
+					<p>{{album.year}}</p>
+				</li>
+      {% endfor %}
+		</ul>
+	</div>
+</section>
