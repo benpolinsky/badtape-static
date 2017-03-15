@@ -17,14 +17,28 @@
     font-weight: normal;
     font-style: normal;
 }
+a:hover{
+  text-decoration:none;
+}
 
+header h1{
+  float:left;
+  clear:left;
+  margin: 10px 0 0 0;
+}
 
 h1 a.site-title{
   font-size:36px;
   color:red;
+  margin-bottom:0;
+  
   &.active{
     color:red;
   }
+}
+
+nav.site-nav{
+  margin:0 0 10px 0;  
 }
 
 h2, h3{
@@ -57,6 +71,13 @@ header h1{
   font-size: 22px;
   font-family: 'interstateplusmedium';
   text-transform: uppercase;
+}
+
+.site-nav{
+  float:left;
+  clear:both;
+  line-height:1;
+  margin:10px 0 10px 0;
 }
 
 
@@ -198,6 +219,7 @@ section.artist .artist-album-list .album-main{
   margin-right:20px;
 }
 
+
 @media screen and (max-width: 700px){
   #front-new-music{
     padding-bottom: 30px;
@@ -255,6 +277,26 @@ section.artist .artist-album-list .album-main{
       }
     }
   }
-
+  
+  section.artist .artist-album-list .album-main{
+    float:left;
+    clear:both;
+    margin-right:20px;
+    margin: 0 20px 10px 0;
+  }
+  
+  section.artist .artist-album-list .description{
+    clear:both;
+    width:100%;
+  }
+  
 }
 
+// when the mobile trigger kicks in
+@media screen and (max-width: 600px){
+
+  nav.site-nav{
+    margin:10px 0;
+  }
+  
+}
